@@ -13,55 +13,75 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <section>
-      <p>Your Result</p>
-      <div>76 of 100</div>
-      <p>Great</p>
-      <p>
-        You scored higher than 65% of the people who have taken these tests.
-      </p>
+    <section id="section-one">
+      <p id="section-one__title">Your Result</p>
+
+      <div id="section-one__circle">
+        <p>76</p>
+        <span>of 100</span>
+      </div>
+
+      <div id="section-one__bottom">
+        <p id="section-one__bottom__title">Great</p>
+        <p id="section-one__bottom__text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <p>Summary</p>
+    <section id="section-two">
+      <p id="section-two__title">Summary</p>
 
-      <div>
-        <div>
-          <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
-          <p>Reaction</p>
+      <div id="section-two__cards">
+        <div
+          class="section-two__cards__content"
+          id="section-two__cards__reaction"
+        >
+          <div class="section-two__cards__title">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+            <p>Reaction</p>
+          </div>
+          <p class="section-two__cards__score">80<span> / 100</span></p>
         </div>
 
-        <span>80 / 100</span>
-      </div>
+        <div
+          class="section-two__cards__content"
+          id="section-two__cards__memory"
+        >
+          <div class="section-two__cards__title">
+            <img src="./assets/images/icon-memory.svg" alt="reaction icon" />
+            <p>Memory</p>
+          </div>
 
-      <div>
-        <div>
-          <img src="./assets/images/icon-memory.svg" alt="reaction icon" />
-          <p>Memory</p>
+          <p class="section-two__cards__score">92<span> / 100</span></p>
         </div>
 
-        <span>92 / 100</span>
-      </div>
+        <div
+          class="section-two__cards__content"
+          id="section-two__cards__verbal"
+        >
+          <div class="section-two__cards__title">
+            <img src="./assets/images/icon-verbal.svg" alt="reaction icon" />
+            <p>Verbal</p>
+          </div>
 
-      <div>
-        <div>
-          <img src="./assets/images/icon-verbal.svg" alt="reaction icon" />
-          <p>Verbal</p>
+          <p class="section-two__cards__score">61<span> / 100</span></p>
         </div>
 
-        <span>61 / 100 </span>
-      </div>
+        <div
+          class="section-two__cards__content"
+          id="section-two__cards__visual"
+        >
+          <div class="section-two__cards__title">
+            <img src="./assets/images/icon-visual.svg" alt="reaction icon" />
+            <p>Visual</p>
+          </div>
 
-      <div>
-        <div>
-          <img src="./assets/images/icon-visual.svg" alt="reaction icon" />
-          <p>Visual</p>
+          <p class="section-two__cards__score">73<span> / 100</span></p>
         </div>
-
-        <span>72 / 100</span>
       </div>
 
-      <div><p>Continue</p></div>
+      <button class="section-two__button"><p>Continue</p></button>
     </section>
 
     <div class="attribution">
