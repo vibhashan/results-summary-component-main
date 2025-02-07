@@ -4,8 +4,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 .attribution {
@@ -155,6 +155,9 @@ body p {
 .section-two__button:hover {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   cursor: pointer;
+}
+.section-two__button:focus {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 /* For desktop sizes. */
